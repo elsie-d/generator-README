@@ -19,17 +19,20 @@ This project is meant to help users by  showing prompts that when answered, a hi
 - [Questions](#questions)
             
 ## Installation
-Node.js 
+Node.js + packages:G
+npm init 
+nmp inquirer@8.2.4
             
             
 ## Usage
 Once all installations are complete, the user can simply open the terminal and use "node index.js" to invoke the promts that will be  used to  generate the file.
+
+Check out a [demo here](https://drive.google.com/file/d/16dJl6LIO3IGwNv6LtdJTKkHS1ERV1gV0/view)
             
 ## Contributions
 Reach out to repo owner
             
-## Tests
-Clone and test locally.
+
             
 ## License
 ISC
