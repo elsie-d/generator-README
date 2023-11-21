@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     let badge = ""
-  
+
     switch (license) {
     case 'MIT':
         badge='[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n'
@@ -28,12 +28,13 @@ function renderLicenseBadge(license) {
   // If there is no license, return an empty string
   function renderLicenseLink(license) {
     if (license==='None') {
-      return ""
-  }
-  else {
-      return `## License
-  -${license}` 
-  }
+        return ""
+    }
+    else {
+        return `
+- [License](#license)
+        ` 
+    }
   
   }
   
@@ -41,12 +42,12 @@ function renderLicenseBadge(license) {
   // If there is no license, return an empty string
   function renderLicenseSection(license) {
     if (license==='None') {
-      return ""
-  }
-  else {
-      return `## License
-  ${license}` 
-  }
+        return ""
+    }
+    else {
+        return `## License
+${license}` 
+    }
   
   }
   

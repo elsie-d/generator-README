@@ -1,5 +1,3 @@
-console.log('test')
-
 // TODO: Include packages needed for this application
 const inquire = require("inquirer");
 const fs = require("fs");
@@ -139,7 +137,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquire.prompt(questions).then((answers) => {
-      writeToFile("README.md", generateMarkdown({ ...answers }));
+      writeToFile("README_DEMO_3.md", generateMarkdown({ ...answers }));
     });
   }
 
